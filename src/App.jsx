@@ -11,6 +11,8 @@ function App() {
   return (
     <>
       <h1>My Hobbies</h1>
+
+      {/* Pass the 'hobbies' array to the 'Hobbies' component as a prop */}
       <Hobbies hobbies={hobbies} />
     </>
   )
